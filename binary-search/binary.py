@@ -1,8 +1,8 @@
 import random
 def main():
     sorted_numbers = get_sorted_array()
-    item = input("Number we are trying to find: ")
-    print("Found in position: ", binary_search(5, sorted_numbers))
+    item = int(input("Number we are trying to find: "))
+    print("Found in position: ", binary_search(item, sorted_numbers))
 
 def binary_search(item, array):
     low = 0
